@@ -1,8 +1,10 @@
-function Titulo(){
+import "./titulo.css";
+
+function Titulo(props){
     return(
   <>
-  <h1>
-   
+  <h1 className="titulo" style={{backgroundColor: props.corDeFundo}}>
+   {props.nome}
   </h1>
   </>
     )

@@ -8,7 +8,9 @@ function Home(){
         <div>
      <Header/>
       <Banner/>
-      <Titulo></Titulo>
+      <Titulo nome="front-end" corDeFundo="#6BD1FF"/>
+      <Titulo nome="back-end" corDeFundo="#00C86F"/>
+      <Titulo nome="mobile" corDeFundo="#FFBA05"/>
       </div>
     )
 };
