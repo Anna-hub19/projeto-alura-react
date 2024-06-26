@@ -9,7 +9,8 @@ import Rodape from './rodape/rodape';
 function Home(){
     return(
         <div>
-     <Header/>
+     <Header corFundoBHome="#000" corBHome="#2271D1" BordaHome=" 2px #2271D1 solid"
+      corFundoBNovo="#262626" corBNovo="#fff" BordaNovo="2px #fff solid"/>
       <Banner/>
       <Titulo nome="front-end" corDeFundo="#6BD1FF"/>
       <div className="container-cards">

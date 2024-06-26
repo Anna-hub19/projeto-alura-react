@@ -1,0 +1,15 @@
+
+.container-titulo-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo-cadastro{
+    color: #fff;
+    font-size: 60px;
+}
+.paragrafo-titulo-cadastro{
+    color: #fff;
+    font-size: 20px;
+}

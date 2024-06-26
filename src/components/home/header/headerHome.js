@@ -1,12 +1,25 @@
+import { Link } from 'react-router-dom';
 import './headerHome.css';
 
-function Header(){
+function Header(props){
     return (
     <div className='conteiner'>
      <img className='imagem-logo' src='/imagens/logo-alura.png' alt='logo aluraFlix'/>
      <div>
-     <button className='botao-home'> HOME </button>
-     <button className='botao-novo'>NOVO VIDEO</button>
+    
+     <Link to={'/'} className='botao-home' 
+     style={{backgroundColor: props.corFundoBHome, 
+     color: props.corBHome,  
+     border: props.BordaHome,
+   
+     }}> HOME </Link>
+     
+     <Link to={'/cadastro'} className='botao-novo'
+     style={{backgroundColor: props.corFundoBNovo, 
+     color: props.corBNovo,  
+     border: props.BordaNovo,
+     
+     }}>NOVO VIDEO</Link>
      </div>
     </div>
     )

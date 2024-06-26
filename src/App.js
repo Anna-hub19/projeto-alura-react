@@ -1,12 +1,17 @@
 
 import './App.css';
-import Home from './components/home/home';
+import Rotas from './routes';
+
+
+
 
 function App() {
   return (
+   
     <div className="App">
-      <Home/>
+   <Rotas/>
     </div>
+   
   );
 }
 

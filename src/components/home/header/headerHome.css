@@ -13,22 +13,19 @@
     margin: 25px;
 }
 .botao-home{
-    background-color: #000;
-    color: #2271D1;
-    border: 2px #2271D1 solid;
     border-radius: 8px;
     width: 100px;
     height: 40px;
     cursor: pointer;
-    
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
 }
 .botao-novo{
-    background-color: #262626;
-    color: #fff;
-    border: 2px #fff solid;
     border-radius: 8px;
     width: 100px;
     height: 40px;
     cursor: pointer;
     margin: 25px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
 }
