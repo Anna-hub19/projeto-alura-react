@@ -29,3 +29,24 @@ body{
     height: 220px;
     
 }
+.botao-form{
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: #262626;
+    color: #fff;
+    border: 2px #fff solid;
+}
+
+.botao-form:hover{
+    background-color: #000;
+    color: #2271D1;
+    border: 2px #2271D1 solid;
+}
+.div-botao-form{
+    display: flex;
+    gap: 50px;
+}

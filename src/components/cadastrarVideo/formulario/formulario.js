@@ -33,8 +33,10 @@ function Formulario() {
                     <label for='descricao'>descrição </label>
                     <input className='input-form' id='descricao' type='text' placeholder='sobre o que é esse vídeo?' />
                 </div>
-                <button>GUARDAR</button>
-                <button>LIMPAR</button>
+                <div className='div-botao-form'>
+                <button className='botao-form'>GUARDAR</button>
+                <button className='botao-form'>LIMPAR</button>
+                </div>
             </form>
         </>
     )
